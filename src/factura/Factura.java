@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class Factura {
 	
-	Vector<Producto> productos;
+	Vector<Producto> productos = new Vector<Producto>();
 	
 	public void meterProducto(Producto p) {
 		productos.add(p);
